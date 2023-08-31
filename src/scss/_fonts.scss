@@ -1,0 +1,6 @@
+// @include font-face("Muller", "../fonts/MullerRegular", 400, normal);
+//Для быстрой загрузки сайта дополнительно подключаем шрифты в head в папке partals
+@include font-face("HelveticaNeue", "../fonts/HelveticaNeueLight", 300, normal);
+@include font-face("HelveticaNeue", "../fonts/HelveticaNeueRegular", 400, normal);
+@include font-face("HelveticaNeue", "../fonts/HelveticaNeueMedium", 500, normal);
+@include font-face("HelveticaNeue", "../fonts/HelveticaNeueBold", 700, normal);

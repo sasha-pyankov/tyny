@@ -1,0 +1,14 @@
+$font-family: "HelveticaNeue", sans-serif;
+
+$content-width: 800px;
+$big-content-width: 1140px;
+$container-offset: 15px;
+$container-width: calc($content-width + ($container-offset * 2));
+$big-container-width: calc($big-content-width + ($container-offset * 2));
+
+$text-dark-color: #0a2756;
+$text-light-color: #fff;
+$bg-color: #0a2756;
+$akcent-color: #007dfe;
+$orange-color: #ffb32c;
+// $border-color: #e7e7e7;

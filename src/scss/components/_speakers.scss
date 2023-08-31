@@ -1,0 +1,137 @@
+.speakers {
+  padding: 72px 0 80px;
+  color: $bg-color;
+  background-color: $text-light-color;
+
+  @include tablet {
+    padding: 27px 0 28px;
+  }
+
+  @include mobile {
+    padding: 0 0 42px;
+  }
+
+  &__container {
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 49px;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1.4;
+
+    @include tablet {
+      font-size: 50px;
+    }
+
+    @include mobile {
+      font-size: 40px;
+    }
+  }
+
+  &__slider {
+    position: relative;
+  }
+}
+
+.speakers-slide {
+  &__image {
+    position: relative;
+    width: 378px;
+    height: 376px;
+
+    @include medium-mobile {
+      width: 100%;
+    }
+  }
+
+  &__descr {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 29px;
+    color: $text-light-color;
+    background-color: rgba(0, 128, 255, 0.70);
+
+    p{
+      margin: 0;
+
+      &:first-child {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        text-transform: lowercase;
+      }
+
+      &:last-child {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+      }
+
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.speakers-pagination {
+  position: relative;
+  margin-top: 69px;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background-color: #e4e4e4;
+  opacity: 1;
+  gap: 42px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0a2756;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 21px);
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  display: none;
+}
+
+.speakers-swiper-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 30px;
+  transform: translateY(-50%);
+
+  @include tablet {
+    display: none;
+  }
+}
+.speakers-prev,
+.speakers-next {
+  width: 27.927px;
+  height: 85px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.swiper-button-prev {
+  left: -87px;
+  top: 0;
+}
+
+.swiper-button-next {
+  right: -87px;
+  top: 0;
+}
