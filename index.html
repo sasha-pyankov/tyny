@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>title</title>
+  <link rel="preload" href="fonts/HelveticaNeueLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/HelveticaNeueRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/HelveticaNeueMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/HelveticaNeueBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__container big-container">
+    <div class="header__logo">
+      <img src="img/logo.png" alt="логотип">
+    </div>
+    <div class="header__body" data-menu>
+      <nav class="nav" title="навигация">
+        <ul class="nav__list list-reset">
+          <li class="nav__item"><a href="#home" class="nav__link" data-scroll data-menu-item>Конференция</a></li>
+          <li class="nav__item"><a href="#" class="nav__link" data-scroll data-menu-item>Программа</a></li>
+          <li class="nav__item"><a href="#speakers" class="nav__link" data-scroll data-menu-item>Спикеры</a></li>
+          <li class="nav__item"><a href="#" class="nav__link" data-scroll data-menu-item>Фото</a></li>
+          <li class="nav__item"><a href="#" class="nav__link" data-scroll data-menu-item>Материалы</a></li>
+        </ul>
+        <a class="nav__btn" href="#"><span>Регистрация</span></a>
+      </nav>
+      <div class="header__social">
+        <a class="icon-mail" href="mailto:info@groupmnextm.ru">
+          <img src="img/icon/mail.svg" alt="иконка почты">
+        </a>
+        <a class="icon-facebook" href="#">
+          <img src="img/icon/facebook.svg" alt="иконка facebook">
+        </a>
+      </div>
+    </div>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
+  </div>
+</header>
+
+    <main class="main">
+    <section class="home" id="home">
+  <div class="home__container container">
+    <article class="home__body">
+      <h1 class="home__title visually-hidden">Скытый заголовок</h1>
+      <div class="home__top">
+        <div class="home__content">
+          <div class="home__content-img">
+            <img src="img/descr.svg" alt="описание конференции">
+          </div>
+          <button class="home__btn btn btn-reset"><span>зарегистрироваться</span></button>
+        </div>
+        <div class="home__img">
+          <img src="img/decor.svg" alt="декоративная картинка">
+        </div>
+      </div>
+      <div class="home__descr">
+        <h1>Команда рекламного холдинга GroupM рада
+          открыть для вас двери digital-конференции NextM!</h1>
+        <p>NextM — это ежегодная digital-конференция, организованная ведущей международной рекламной группой GroupM, входящей в состав коммуникационного холдинга WPP и представленной в России агентствами Mindshare, MediaCom и Wavemaker.</p>
+      </div>
+    </article>
+    <div class="home__icon-scroll">
+      <img src="img/icon/arrow.svg" alt="иконка скролла вниз">
+    </div>
+  </div>
+</section>
+
+    <section class="speakers" id="speakers">
+  <div class="speakers__container container">
+    <h2 class="speakers__title">Спикеры</h2>
+    <div class="speakers__slider">
+      <div class="swiper speakers-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide speakers-slide">
+            <picture>
+              <source srcset="img/slider-img-01.webp, img/slider-img-01_2x.webp 2x" type="image/webp">
+              <img  class="speakers-slide__image" loading="lazy" src="img/slider-img-01.jpg" srcset="img/slider-img-01_2x.jpg 2x" alt="фото сотрудника">
+            </picture>
+            <div class="speakers-slide__descr">
+              <p>Ярон Фаризон</p>
+              <p>CEO MediaCom</p>
+            </div>
+          </div>
+          <div class="swiper-slide speakers-slide">
+            <picture>
+              <source srcset="img/slider-img-01.webp, img/slider-img-01_2x.webp 2x" type="image/webp">
+              <img  class="speakers-slide__image" loading="lazy" src="img/slider-img-01.jpg" srcset="img/slider-img-01_2x.jpg 2x" alt="фото сотрудника">
+            </picture>
+            <div class="speakers-slide__descr">
+              <p>Ярон Фаризон</p>
+              <p>CEO MediaCom</p>
+            </div>
+          </div>
+          <div class="swiper-slide speakers-slide">
+            <picture>
+              <source srcset="img/slider-img-01.webp, img/slider-img-01_2x.webp 2x" type="image/webp">
+              <img  class="speakers-slide__image" loading="lazy" src="img/slider-img-01.jpg" srcset="img/slider-img-01_2x.jpg 2x" alt="фото сотрудника">
+            </picture>
+            <div class="speakers-slide__descr">
+              <p>Ярон Фаризон</p>
+              <p>CEO MediaCom</p>
+            </div>
+          </div>
+          <div class="swiper-slide speakers-slide">
+            <picture>
+              <source srcset="img/slider-img-01.webp, img/slider-img-01_2x.webp 2x" type="image/webp">
+              <img  class="speakers-slide__image" loading="lazy" src="img/slider-img-01.jpg" srcset="img/slider-img-01_2x.jpg 2x" alt="фото сотрудника">
+            </picture>
+            <div class="speakers-slide__descr">
+              <p>Ярон Фаризон</p>
+              <p>CEO MediaCom</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="speakers-swiper-button">
+        <div class="swiper-button-prev speakers-prev">
+          <img src="img/icon/arrow-left.svg" alt="стрелка влево">
+        </div>
+        <div class="swiper-button-next speakers-next">
+          <img src="img/icon/arrow-right.svg" alt="стрелка вправо">
+        </div>
+      </div>
+      <div class="speakers-pagination">
+        <div class="swiper-pagination speakers-swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <h2 class="footer__title">Отправить сообщение</h2>
+    <form action="#" class="form">
+      <div class="form__top">
+        <label class="form__label">
+          <input type="text" name="Имя" class="input-reset form__input input-name" placeholder="Ваше имя">
+        </label>
+        <label class="form__label">
+          <input type="email" name="E-mail" class="input-reset form__input input-email" placeholder="E-mail">
+        </label>
+      </div>
+      <label class="form__label form__label--big">
+        <textarea type="text" name="text" class="input-reset form__input form__textarea" placeholder="Ваше сообщение"></textarea>
+      </label>
+      <button class="footer__btn form__btn btn btn-reset">Отправить</button>
+    </form>
+    <div class="footer__contact contact">
+      <a class="contact__mail" href="mailto:info@groupmnextm.ru">info@groupmnextm.ru</a>
+      <a class="contact__tel" href="tel:+74956414080">+7 495 641-40-80</a>
+      <p class="contact__info">Правовая информация</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
