@@ -1,7 +1,7 @@
-# test_Tzeezotje
+# tyny
 <p align="left">
 </p>
-<h2 align= "left">Для запуска введите команду - gulp</h3>
+<h2 align= "left">Ссылка на сайт - https://sasha-pyankov.github.io/tyny/ .</h3>
 <h3 align= "left">Языки и инструменты:</h3>
 <p align="left"> <a href="https:// www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width= "40" height="40"/> </a>
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
